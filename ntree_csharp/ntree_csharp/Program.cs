@@ -13,7 +13,7 @@ namespace ntree_csharp
             return iNum;
         }
 
-        static void MakeRandomChildren(Random rRand, CIntTreeNode itnNode, int iDepth, int iMaxDepth, int iMaxChildren, int iMaxDigits) // 4 maxdhild 8 maxdigits
+        static void MakeRandomChildren(Random rRand, CIntTreeNode itnNode, int iDepth, int iMaxDepth, int iMaxChildren, int iMaxDigits)
         {
             if (iDepth > iMaxDepth)
             {
