@@ -1,0 +1,6 @@
+/Users/fedor/Projects/ntree_csharp/ntree_csharp/bin/Debug/ntree_csharp.exe
+/Users/fedor/Projects/ntree_csharp/ntree_csharp/bin/Debug/ntree_csharp.pdb
+/Users/fedor/Projects/ntree_csharp/ntree_csharp/obj/x86/Debug/ntree_csharp.csprojAssemblyReference.cache
+/Users/fedor/Projects/ntree_csharp/ntree_csharp/obj/x86/Debug/ntree_csharp.csproj.CoreCompileInputs.cache
+/Users/fedor/Projects/ntree_csharp/ntree_csharp/obj/x86/Debug/ntree_csharp.exe
+/Users/fedor/Projects/ntree_csharp/ntree_csharp/obj/x86/Debug/ntree_csharp.pdb
