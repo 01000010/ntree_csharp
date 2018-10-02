@@ -81,8 +81,7 @@ Even tho a node can have n number of children (where n is any number >= 0) it on
 A second class inherits from the base one, keeping track of how many spaces, the start position of the cursor, how many forks and the length of the data. A queue is implemented to keep track of the current carracter to be printed in the current position.
 The printing method works by analyzing the whole structure first through a depth first search. It analyses how many layers the tree has, how many nodes are in each layer and the lenght every of these nodes and adapts acordingly.
 ## The classes
-### CTreeNode
-[CTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CTreeNode.cs)
+### [CTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CTreeNode.cs)
 This is the main class, it creates the nodes, each node has 4 properties, these are references to other nodes.
 - ```m_pRightBrother``` A link to the node's right brother
 - ```m_pLeftBrother```  A link to the node's left brother
@@ -95,8 +94,7 @@ Nodes also have 4 ways in wich they can be created:
 - ```ENODE_LAST_CHILD```    Add the node as the last child of the referenced node
 - ```ENODE_RIGHT_BROTHER``` Add the node as the right brother of the referenced node
 - ```ENODE_LEFT_BROTHER```  Add the node as the left brother of the referenced node
-### CTreeNodeWriteable
-[CTreeNodeWriteable](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CTreeNodeWriteable.cs)
+### [CTreeNodeWriteable](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CTreeNodeWriteable.cs)
 This class the the one that is responsable to write the tree into a string. It inherits from 
 [CTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CTreeNode.cs) and bassicaly just adds 5 new properties to the node.
 - ```m_sWidth```    The width required for the tree
@@ -105,9 +103,7 @@ This class the the one that is responsable to write the tree into a string. It i
 - ```m_sLength```   The length of the data
 - ```m_eCommand```  The command to follow (To write either empty space, a fork a, the data or a branch)
 The method ```InitWrite``` is where the [depth first](https://en.wikipedia.org/wiki/Depth-first_search) magic happens.
-### CIntTreeNode and CStringTreeNode
-[CIntTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CIntTreeNode.cs)
-[CStringTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CStringTreeNode.cs)
+### [CIntTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CIntTreeNode.cs) and [CStringTreeNode](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CStringTreeNode.cs)
 These classes are simple, they inherit from [CTreeNodeWriteable](https://github.com/01000010/ntree_csharp/blob/master/ntree_csharp/ntree_csharp/CTreeNodeWriteable.cs) and add the data property to the node. If you plan to use this node for anyother type of data I recomend that you modify any of the two classes to deal with [Generics](https://msdn.microsoft.com/en-us/library/ms379564(v=vs.80).aspx).
 ## What's next?...
 So the TODO for this project is:
