@@ -112,7 +112,3 @@ So the TODO for this project is:
 * Add a search method, to search through the data of the tree.
 * Make a prettier and flashier demo. Maybe something with graphics instead of just text.
 * Comment the code (even tho I always try my best to have the code self comment)
-# Me! Me! Me!
-If you find this code useful let me know or give me a shoutout! I'll appreciate it. Also, if you have any questions or need some help, feel free to contact me at: brandon_segura@outlook.com
-
-And if you find the code extremely useful, please consider [buying me a coffee.](https://www.paypal.me/BrandonSegura)
